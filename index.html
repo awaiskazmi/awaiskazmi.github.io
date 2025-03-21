@@ -3,9 +3,207 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Awais Kazmi | Online Resume</title>
+    <title>Awais Kazmi | Product Engineer | Online Resume</title>
+    <link rel="shortcut icon" href="./favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style.min.css" />
   </head>
   <body>
-    <h1>Salaam! 🤝</h1>
+    <header
+      class="position:sticky top:0 padding:2rem_0 background:#fff zIndex:10 marginBottom:2rem"
+    >
+      <div
+        class="container display:flex alignItems:center justifyContent:space-between"
+      >
+        <div class="display:flex alignItems:center gap:1rem">
+          <a href="mailto:awais.k.ali@gmail.com">
+            <span><img src="./email-icon.svg" alt="" /></span>
+          </a>
+          <a href="https://github.com/awaiskazmi" target="_blank">
+            <span><img src="./github-icon.svg" alt="" /></span>
+          </a>
+        </div>
+        <ul class="listStyleType:none display:flex gap:1rem padding:0 margin:0">
+          <li>
+            <a
+              target="_blank"
+              href="https://docs.google.com/document/d/1IpFEoqiT5AuBHYXSphoa8TI2yJ3bIEanaW-_2GjXaZQ/edit?usp=sharing"
+              class="display:flex alignItems:center gap:4px"
+              ><img
+                src="./download-icon.svg"
+                alt=""
+                class="margin:0"
+              />Resume</a
+            >
+          </li>
+          <li><a href="#featured-project">Work</a></li>
+          <li><a href="#my-values">Values</a></li>
+          <li><a href="#contact">Get in touch</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="container">
+        <h1 class="margin:0 fontSize:2.75rem">Salaam! 🤝</h1>
+        <p class="fontSize:1.25rem fontWeight:500">
+          I'm a
+          <a
+            href="https://leerob.com/n/product-engineers"
+            target="_blank"
+            class="fontWeight:700"
+            >Product Engineer</a
+          >
+          with close to 10 years of experience.
+        </p>
+        <blockquote class="margin:3rem_2rem fontSize:1.125rem">
+          Product Engineers work backwards from the desired product experience
+          to the set of technologies that enable it. They consider the frontend,
+          backend, design, and everything in between to create a great user
+          experience.
+        </blockquote>
+        <cite
+          ><a
+            href="https://leerob.com/n/product-engineers"
+            target="blank"
+            class="fontSize:0.85rem width:100% textAlign:center marginBottom:2rem"
+            >Source: Product Engineers &mdash; Lee Robinson (Vercel)</a
+          ></cite
+        >
+        <!-- <p class="marginTop:2rem">
+          Over the last decade I have helped several companies take their
+          complex products from concept to market delivery. I can help you do
+          the same.
+        </p> -->
+        <img src="./tech.png" alt="Logos of web developmet technologies" />
+        <div class="margin:2rem_0">
+          <blockquote
+            class="padding:0 margin:0_2rem width:100% fontSize:1.125rem"
+          >
+            I hired Kazmi for design and primarily front-end development (though
+            some back-end, as well). The project started approximately 6 months
+            ago and has been for a sophisticated sales funnel. During this time,
+            I have come to call Kazmi "My Genie" — whatever I want to do, Kazmi
+            seems to be able to effortlessly do it!
+            <br /><br />Having worked with probably more than 70 programmers and
+            multiple teams from all over the world since 2004, I can say that
+            Kazmi is in the upper 1% of all those I've ever worked with. And, in
+            addition, he is extraordinarily pleasant and good-humored! While our
+            current project is nearly done, I will be hiring Kazmi for
+            additional projects going forward. That says it all. Michael
+            Norwood, The Wealthy Soul
+          </blockquote>
+          <cite
+            ><a
+              href="https://www.linkedin.com/in/drmichaelnorwood/"
+              target="_blank"
+              class="display:flex alignItems:center gap:1rem"
+            >
+              <img
+                src="./michael.png"
+                alt="Michael Norwood"
+                class="height:72px width:72px borderRadius:100%"
+              />Michael Norwood, The Wealthy Soul
+            </a></cite
+          >
+        </div>
+      </section>
+      <section id="featured-project" class="background:#f3f3f3 padding:5rem_0">
+        <div class="container-wide">
+          <h3
+            class="textAlign:center fontSize:3rem letterSpacing:-2px margin:0"
+          >
+            Showcase Project
+          </h3>
+          <div
+            class="display:grid gridTemplateColumns:1fr md:gridTemplateColumns:1fr_1fr alignItems:center md:gap:3rem"
+          >
+            <a href="https://prototype.heyboard.ai/" target="_blank">
+              <img
+                src="./heyboard.png"
+                alt="Screenshot of Heyboard"
+                class="border:1px_solid_#eee borderRadius:8px boxShadow:1px_7px_35px_rgba(0,0,0,0.1)"
+              />
+            </a>
+            <div class="flex:1 flexShrink:0">
+              <h4 class="margin:0 fontSize:1.25rem">Heyboard</h4>
+              <p class="margin:0 md:fontSize:0.85rem color:#777">
+                AI-Powered Task Management App
+              </p>
+              <p class="marginBottom:1.75rem">
+                I designed and developed a prototype of an AI-Powered task
+                management app to showcase my skills. The design was made using
+                Figma (Shadcn UI Library) and the dashboard was coded using
+                React with the Shadcn Component Library.
+              </p>
+              <a
+                target="_blank"
+                class="button"
+                href="https://prototype.heyboard.ai/"
+                >View Project</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="my-values" class="padding:5rem_0">
+        <div class="container">
+          <h3 class="fontSize:2.5rem letterSpacing:-1px">My values</h3>
+          <div>
+            <dl>
+              <dt>😌 Comfortable with Ambiguity and Chaos</dt>
+              <dd>
+                I thrive in uncertain environments, turning complexity into
+                clarity. I embrace challenges, adapt quickly, and find
+                innovative solutions amidst evolving circumstances.
+              </dd>
+              <dt>🚀 Move fast, Break things</dt>
+              <dd>
+                I prioritize rapid iteration and experimentation, valuing
+                progress over perfection. I'm not afraid to challenge the status
+                quo and learn from failures to accelerate innovation.
+              </dd>
+              <dt>🔎 Life Long Learner</dt>
+              <dd>
+                I'm driven by a constant curiosity, actively seeking new
+                knowledge and skills. I believe in continuous improvement and
+                staying ahead of the curve through relentless learning.
+              </dd>
+              <dt>🔑 Communication is Key</dt>
+              <dd>
+                I prioritize clear, concise, and empathetic communication. I
+                believe in fostering collaboration and understanding through
+                open dialogue and active listening.
+              </dd>
+            </dl>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="background:#f3f3f3 padding:5rem_0_6rem_0">
+        <div class="container">
+          <h3 class="fontSize:2.5rem letterSpacing:-1px">Get in touch 👋</h3>
+          <p>
+            I'm happy to talk business or simply give you some free advice. If
+            both sides see value in working together, we’ll move forward. If
+            not, that's okay too. Worst case we both had a nice chat and
+            received some free feedback.
+          </p>
+          <p>
+            <strong
+              >Send me an email at
+              <a href="mailto:awais.k.ali@gmail.com"
+                ><u>awais.k.ali@gmail.com</u></a
+              ></strong
+            >
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="./app.js"></script>
   </body>
 </html>
